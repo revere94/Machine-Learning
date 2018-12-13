@@ -1,4 +1,4 @@
-# Training Inception-V3
+# Training Inception-V3 Model
 
 from imageai.Prediction.Custom import ModelTraining
 
