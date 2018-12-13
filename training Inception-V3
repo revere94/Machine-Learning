@@ -1,0 +1,9 @@
+# Training Inception-V3
+
+from imageai.Prediction.Custom import ModelTraining
+
+
+model_trainer = ModelTraining()
+model_trainer.setModelTypeAsInceptionV3()
+model_trainer.setDataDirectory("pets")
+model_trainer.trainModel(num_objects=2, num_experiments=100, enhance_data=True, batch_size=25, show_network_summary=True)
